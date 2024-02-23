@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello, from index!")
+    return HttpResponse("Hello, from demo index!")
 
 def home(request):
-    return HttpResponse("Hello, from home!")
+    return HttpResponse("Hello, from demo home!")
